@@ -1,3 +1,3 @@
 # git_lab
 
-A new Flutter project.
+This is my new project to practice the git version control system 
