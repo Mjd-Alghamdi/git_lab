@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:git_lab/home_view.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,14 +11,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text(
-            'Mjd\'s first lab Update',
-            style: TextStyle(color: Colors.amberAccent),
-          ),
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: HomeView()
     );
   }
 }
