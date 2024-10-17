@@ -7,7 +7,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text("Hello from Home View"),
+        child: Text("Hello from Home View Update"),
       ),
     );
   }
